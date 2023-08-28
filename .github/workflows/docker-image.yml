@@ -8,7 +8,7 @@ jobs:
       - uses: actions/checkout@master
       - name: Building Docker Image
         uses: elgohr/Publish-Docker-Github-Action@master
-        with:a
+        with:
           # 下方的name格式为：Docker Hub ID/自定义镜像名称
           name: booui/ppppii
           username: '${{ secrets.DOCKER_USERNAME }}'
